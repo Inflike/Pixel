@@ -60,7 +60,7 @@ public final class PixelEditContext {
   }
 }
 
-public final class PixelEditViewController : UIViewController {
+public class PixelEditViewController : UIViewController {
   
   public final class Callbacks {
     public var didEndEditing: (PixelEditViewController, EditingStack) -> Void = { _, _ in }
